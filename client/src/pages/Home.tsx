@@ -13,7 +13,7 @@ export default function Home() {
           <nav className="hidden md:flex items-center gap-8">
             <a href="#areas" className="text-foreground hover:text-primary transition">Áreas</a>
             <a href="#contact" className="text-foreground hover:text-primary transition">Contato</a>
-            <Button className="bg-primary text-primary-foreground hover:bg-primary/90">
+            <Button className="bg-yellow-500 text-gray-900 hover:bg-yellow-600 font-semibold">
               Agendar Consulta
             </Button>
           </nav>
@@ -55,10 +55,10 @@ export default function Home() {
 
             {/* CTA Buttons */}
             <div className="flex flex-col sm:flex-row gap-4">
-              <Button size="lg" className="bg-primary text-primary-foreground hover:bg-primary/90">
+              <Button size="lg" className="bg-yellow-500 text-gray-900 hover:bg-yellow-600 font-semibold">
                 Agendar Consulta
               </Button>
-              <Button size="lg" variant="outline" className="border-border hover:bg-card">
+              <Button size="lg" variant="outline" className="border-border hover:bg-card text-foreground">
                 Saiba Mais
               </Button>
             </div>
@@ -203,7 +203,7 @@ export default function Home() {
           <p className="text-lg text-muted-foreground mb-8 max-w-2xl mx-auto">
             Agende uma consulta com a Dra. Joice Lugon e descubra como podemos ajudar você a alcançar a justiça que merece.
           </p>
-          <Button size="lg" className="bg-primary text-primary-foreground hover:bg-primary/90">
+          <Button size="lg" className="bg-yellow-500 text-gray-900 hover:bg-yellow-600 font-semibold">
             Agendar Consulta Agora
           </Button>
         </div>
