@@ -67,9 +67,11 @@ export default function Home() {
 
             {/* CTA Buttons */}
             <div className="flex flex-col sm:flex-row gap-4">
-              <Button size="lg" className="bg-yellow-500 text-gray-900 hover:bg-yellow-600 font-semibold">
-                Agendar Consulta
-              </Button>
+              <a href="https://wa.me/+5527995743351" target="_blank" rel="noopener noreferrer">
+                <Button size="lg" className="bg-yellow-500 text-gray-900 hover:bg-yellow-600 font-semibold">
+                  Agendar Consulta
+                </Button>
+              </a>
               <Button size="lg" variant="outline" className="border-border hover:bg-card text-foreground">
                 Saiba Mais
               </Button>
