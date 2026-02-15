@@ -217,9 +217,9 @@ export default function Home() {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-12">
             {/* Email */}
             <div className="text-center">
-              <div className="w-12 h-12 bg-primary/20 rounded-lg flex items-center justify-center mx-auto mb-4">
+              <a href="mailto:joicelugon.adv@gmail.com" className="inline-block w-12 h-12 bg-primary/20 rounded-lg flex items-center justify-center mx-auto mb-4 hover:bg-primary/30 transition">
                 <Mail className="w-6 h-6 text-primary" />
-              </div>
+              </a>
               <h3 className="text-xl font-bold text-foreground mb-2">E-mail</h3>
               <a href="mailto:joicelugon.adv@gmail.com" className="text-primary hover:text-primary/80 transition">
                 joicelugon.adv@gmail.com
@@ -228,27 +228,32 @@ export default function Home() {
 
             {/* WhatsApp */}
             <div className="text-center">
-              <div className="w-12 h-12 bg-primary/20 rounded-lg flex items-center justify-center mx-auto mb-4">
+              <a href="https://wa.me/+5527995743351" className="inline-block w-12 h-12 bg-primary/20 rounded-lg flex items-center justify-center mx-auto mb-4 hover:bg-primary/30 transition">
                 <Phone className="w-6 h-6 text-primary" />
-              </div>
+              </a>
               <h3 className="text-xl font-bold text-foreground mb-2">WhatsApp</h3>
-              <a href="https://wa.me/5527995743351" className="text-primary hover:text-primary/80 transition">
+              <a href="https://wa.me/+5527995743351" className="text-primary hover:text-primary/80 transition">
                 (27) 99574-3351
               </a>
             </div>
 
             {/* Social Media */}
             <div className="text-center">
-              <div className="w-12 h-12 bg-primary/20 rounded-lg flex items-center justify-center mx-auto mb-4">
-                <Instagram className="w-6 h-6 text-primary" />
+              <div className="flex items-center justify-center gap-4 mb-4">
+                <a href="https://www.instagram.com/joicelugon.adv" target="_blank" rel="noopener noreferrer" className="inline-block w-12 h-12 bg-primary/20 rounded-lg flex items-center justify-center hover:bg-primary/30 transition">
+                  <Instagram className="w-6 h-6 text-primary" />
+                </a>
+                <a href="http://www.tiktok.com/@joicelugon.adv" target="_blank" rel="noopener noreferrer" className="inline-block w-12 h-12 bg-primary/20 rounded-lg flex items-center justify-center hover:bg-primary/30 transition">
+                  <Music className="w-6 h-6 text-primary" />
+                </a>
               </div>
               <h3 className="text-xl font-bold text-foreground mb-2">Redes Sociais</h3>
               <div className="flex items-center justify-center gap-4">
-                <a href="#" className="text-primary hover:text-primary/80 transition">
+                <a href="https://www.instagram.com/joicelugon.adv" target="_blank" rel="noopener noreferrer" className="text-primary hover:text-primary/80 transition">
                   Instagram
                 </a>
                 <span className="text-muted-foreground">•</span>
-                <a href="#" className="text-primary hover:text-primary/80 transition">
+                <a href="http://www.tiktok.com/@joicelugon.adv" target="_blank" rel="noopener noreferrer" className="text-primary hover:text-primary/80 transition">
                   TikTok
                 </a>
               </div>
