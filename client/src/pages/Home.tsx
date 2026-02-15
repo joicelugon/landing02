@@ -109,74 +109,83 @@ export default function Home() {
           </div>
 
           {/* Cards Grid */}
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
             {/* Previdenciário */}
-            <div className="group p-6 bg-background border border-border rounded-lg hover:border-primary/50 transition-all duration-300 cursor-pointer"
+            <div className="group relative p-8 bg-gradient-to-br from-purple-900/40 to-purple-950/60 border border-primary/30 rounded-xl hover:border-primary/60 transition-all duration-500 cursor-pointer overflow-hidden"
               onMouseEnter={() => setActiveArea('previdenciario')}
               onMouseLeave={() => setActiveArea(null)}>
-              <div className="mb-4">
-                <div className="w-10 h-10 bg-primary/20 rounded-lg flex items-center justify-center mb-3">
-                  <Briefcase className="w-5 h-5 text-primary" />
+              <div className="absolute inset-0 bg-gradient-to-br from-primary/10 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
+              <div className="relative z-10">
+                <div className="mb-6">
+                  <div className="w-14 h-14 bg-gradient-to-br from-primary/40 to-primary/20 rounded-xl flex items-center justify-center mb-4 group-hover:scale-110 transition-transform duration-300">
+                    <Briefcase className="w-7 h-7 text-primary" />
+                  </div>
+                  <h3 className="text-xl font-bold text-primary group-hover:text-primary/80 transition-colors duration-300">Previdenciário</h3>
                 </div>
-                <h3 className="text-lg font-bold text-foreground">Previdenciário</h3>
-              </div>
 
-              <ul className="space-y-3">
-                <li className="flex items-center gap-2 text-foreground">
-                  <span className="w-2 h-2 bg-primary rounded-full"></span>
-                  Aposentadorias
-                </li>
-                <li className="flex items-center gap-2 text-foreground">
-                  <span className="w-2 h-2 bg-primary rounded-full"></span>
-                  Benefícios INSS
-                </li>
-              </ul>
+                <ul className="space-y-3">
+                  <li className="flex items-center gap-3 text-foreground/90 group-hover:text-foreground transition-colors duration-300">
+                    <span className="w-2.5 h-2.5 bg-primary rounded-full group-hover:scale-125 transition-transform duration-300"></span>
+                    <span className="font-medium">Aposentadorias</span>
+                  </li>
+                  <li className="flex items-center gap-3 text-foreground/90 group-hover:text-foreground transition-colors duration-300">
+                    <span className="w-2.5 h-2.5 bg-primary rounded-full group-hover:scale-125 transition-transform duration-300"></span>
+                    <span className="font-medium">Benefícios INSS</span>
+                  </li>
+                </ul>
+              </div>
             </div>
 
             {/* Trabalhista */}
-            <div className="group p-6 bg-background border border-border rounded-lg hover:border-primary/50 transition-all duration-300 cursor-pointer"
+            <div className="group relative p-8 bg-gradient-to-br from-purple-900/40 to-purple-950/60 border border-primary/30 rounded-xl hover:border-primary/60 transition-all duration-500 cursor-pointer overflow-hidden"
               onMouseEnter={() => setActiveArea('trabalhista')}
               onMouseLeave={() => setActiveArea(null)}>
-              <div className="mb-4">
-                <div className="w-10 h-10 bg-primary/20 rounded-lg flex items-center justify-center mb-3">
-                  <Shield className="w-5 h-5 text-primary" />
+              <div className="absolute inset-0 bg-gradient-to-br from-primary/10 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
+              <div className="relative z-10">
+                <div className="mb-6">
+                  <div className="w-14 h-14 bg-gradient-to-br from-primary/40 to-primary/20 rounded-xl flex items-center justify-center mb-4 group-hover:scale-110 transition-transform duration-300">
+                    <Shield className="w-7 h-7 text-primary" />
+                  </div>
+                  <h3 className="text-xl font-bold text-primary group-hover:text-primary/80 transition-colors duration-300">Trabalhista</h3>
                 </div>
-                <h3 className="text-lg font-bold text-foreground">Trabalhista</h3>
-              </div>
 
-              <ul className="space-y-3">
-                <li className="flex items-center gap-2 text-foreground">
-                  <span className="w-2 h-2 bg-primary rounded-full"></span>
-                  Direitos Trabalhistas
-                </li>
-                <li className="flex items-center gap-2 text-foreground">
-                  <span className="w-2 h-2 bg-primary rounded-full"></span>
-                  Auditoria e Consultoria Empresarial
-                </li>
-              </ul>
+                <ul className="space-y-3">
+                  <li className="flex items-center gap-3 text-foreground/90 group-hover:text-foreground transition-colors duration-300">
+                    <span className="w-2.5 h-2.5 bg-primary rounded-full group-hover:scale-125 transition-transform duration-300"></span>
+                    <span className="font-medium">Direitos Trabalhistas</span>
+                  </li>
+                  <li className="flex items-center gap-3 text-foreground/90 group-hover:text-foreground transition-colors duration-300">
+                    <span className="w-2.5 h-2.5 bg-primary rounded-full group-hover:scale-125 transition-transform duration-300"></span>
+                    <span className="font-medium">Auditoria e Consultoria Empresarial</span>
+                  </li>
+                </ul>
+              </div>
             </div>
 
             {/* Consumidor */}
-            <div className="group p-6 bg-background border border-border rounded-lg hover:border-primary/50 transition-all duration-300 cursor-pointer"
+            <div className="group relative p-8 bg-gradient-to-br from-purple-900/40 to-purple-950/60 border border-primary/30 rounded-xl hover:border-primary/60 transition-all duration-500 cursor-pointer overflow-hidden"
               onMouseEnter={() => setActiveArea('consumidor')}
               onMouseLeave={() => setActiveArea(null)}>
-              <div className="mb-4">
-                <div className="w-10 h-10 bg-primary/20 rounded-lg flex items-center justify-center mb-3">
-                  <Users className="w-5 h-5 text-primary" />
+              <div className="absolute inset-0 bg-gradient-to-br from-primary/10 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
+              <div className="relative z-10">
+                <div className="mb-6">
+                  <div className="w-14 h-14 bg-gradient-to-br from-primary/40 to-primary/20 rounded-xl flex items-center justify-center mb-4 group-hover:scale-110 transition-transform duration-300">
+                    <Users className="w-7 h-7 text-primary" />
+                  </div>
+                  <h3 className="text-xl font-bold text-primary group-hover:text-primary/80 transition-colors duration-300">Consumidor</h3>
                 </div>
-                <h3 className="text-lg font-bold text-foreground">Consumidor</h3>
-              </div>
 
-              <ul className="space-y-3">
-                <li className="flex items-center gap-2 text-foreground">
-                  <span className="w-2 h-2 bg-primary rounded-full"></span>
-                  Defesa do Consumidor
-                </li>
-                <li className="flex items-center gap-2 text-foreground">
-                  <span className="w-2 h-2 bg-primary rounded-full"></span>
-                  Reparação de Danos
-                </li>
-              </ul>
+                <ul className="space-y-3">
+                  <li className="flex items-center gap-3 text-foreground/90 group-hover:text-foreground transition-colors duration-300">
+                    <span className="w-2.5 h-2.5 bg-primary rounded-full group-hover:scale-125 transition-transform duration-300"></span>
+                    <span className="font-medium">Defesa do Consumidor</span>
+                  </li>
+                  <li className="flex items-center gap-3 text-foreground/90 group-hover:text-foreground transition-colors duration-300">
+                    <span className="w-2.5 h-2.5 bg-primary rounded-full group-hover:scale-125 transition-transform duration-300"></span>
+                    <span className="font-medium">Reparação de Danos</span>
+                  </li>
+                </ul>
+              </div>
             </div>
           </div>
         </div>
