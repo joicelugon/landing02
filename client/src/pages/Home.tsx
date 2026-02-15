@@ -55,7 +55,7 @@ export default function Home() {
               </div>
               
               {/* Main Title */}
-              <h1 className="text-5xl md:text-6xl font-bold leading-tight" style={{fontFamily: '"Playfair Display", serif'}}>
+              <h1 className="text-5xl md:text-6xl font-bold leading-tight" style={{fontFamily: '"Playfair Display", serif', textAlign: 'left'}}>
                 O direito não socorre aos que <span className="text-primary">dormem</span>
               </h1>
             </div>
@@ -104,12 +104,12 @@ export default function Home() {
       </section>
 
       {/* Areas Section */}
-      <section id="areas" className="py-20" style={{backgroundColor: '#d4af37'}}>
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8" style={{backgroundColor: '#d4af37'}}>
+      <section id="areas" className="py-20" style={{backgroundColor: '#1a001a'}}>
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8" style={{backgroundColor: '#3c003c'}}>
           {/* Section Header */}
           <div className="text-center mb-16">
-            <h2 className="text-4xl md:text-5xl font-bold mb-4" style={{color: '#1a0a1f'}}>Áreas de Atuação</h2>
-            <p className="text-lg max-w-2xl mx-auto" style={{color: '#1a0a1f'}}>
+            <h2 className="text-4xl md:text-5xl font-bold mb-4" style={{color: '#f0e44f'}}>Áreas de Atuação</h2>
+            <p className="text-lg max-w-2xl mx-auto" style={{color: '#d4af37'}}>
               Expertise consolidada em três pilares do direito que protegem seus direitos
             </p>
           </div>
