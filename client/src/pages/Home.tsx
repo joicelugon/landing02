@@ -118,9 +118,7 @@ export default function Home() {
                 </div>
                 <h3 className="text-2xl font-bold text-foreground">Previdenciário</h3>
               </div>
-              <p className="text-muted-foreground mb-6">
-                Consultoria especializada em benefícios previdenciários, aposentadorias e questões relacionadas ao INSS.
-              </p>
+
               <ul className="space-y-3">
                 <li className="flex items-center gap-2 text-foreground">
                   <span className="w-2 h-2 bg-primary rounded-full"></span>
@@ -143,9 +141,7 @@ export default function Home() {
                 </div>
                 <h3 className="text-2xl font-bold text-foreground">Trabalhista</h3>
               </div>
-              <p className="text-muted-foreground mb-6">
-                Defesa da legislação trabalhista, rescisão contratual, reclamações e ações judiciais.
-              </p>
+
               <ul className="space-y-3">
                 <li className="flex items-center gap-2 text-foreground">
                   <span className="w-2 h-2 bg-primary rounded-full"></span>
@@ -168,9 +164,7 @@ export default function Home() {
                 </div>
                 <h3 className="text-2xl font-bold text-foreground">Consumidor</h3>
               </div>
-              <p className="text-muted-foreground mb-6">
-                Proteção ao consumidor, defesa contra práticas abusivas e ações para reparação de danos.
-              </p>
+
               <ul className="space-y-3">
                 <li className="flex items-center gap-2 text-foreground">
                   <span className="w-2 h-2 bg-primary rounded-full"></span>
