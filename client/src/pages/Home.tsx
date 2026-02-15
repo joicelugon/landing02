@@ -104,8 +104,8 @@ export default function Home() {
       </section>
 
       {/* Areas Section */}
-      <section id="areas" className="py-20 bg-card/50">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <section id="areas" className="py-20 bg-card/50" style={{backgroundColor: '#370037'}}>
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8" style={{backgroundColor: '#2c0c36'}}>
           {/* Section Header */}
           <div className="text-center mb-16">
             <h2 className="text-4xl md:text-5xl font-bold mb-4">Áreas de Atuação</h2>
@@ -191,21 +191,6 @@ export default function Home() {
               </ul>
             </div>
           </div>
-        </div>
-      </section>
-
-      {/* CTA Section */}
-      <section className="py-20 bg-background">
-        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <h2 className="text-4xl md:text-5xl font-bold mb-6">
-            Pronto para Proteger Seus Direitos?
-          </h2>
-          <p className="text-lg text-muted-foreground mb-8 max-w-2xl mx-auto">
-            Agende uma consulta com a Dra. Joice Lugon e descubra como podemos ajudar você a alcançar a justiça que merece.
-          </p>
-          <Button size="lg" className="bg-yellow-500 text-gray-900 hover:bg-yellow-600 font-semibold">
-            Agendar Consulta Agora
-          </Button>
         </div>
       </section>
 
