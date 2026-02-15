@@ -75,13 +75,7 @@ export default function Home() {
               </Button>
             </div>
 
-            {/* Social Proof */}
-            <div className="flex items-center gap-2 pt-4 border-t border-border">
-              <div className="w-2 h-2 bg-primary rounded-full"></div>
-              <p className="text-sm text-muted-foreground">
-                Centenas de clientes satisfeitos com resultados comprovados
-              </p>
-            </div>
+
           </div>
 
 
@@ -109,9 +103,7 @@ export default function Home() {
           {/* Section Header */}
           <div className="text-center mb-16">
             <h2 className="text-4xl md:text-5xl font-bold mb-4" style={{color: '#f0e44f'}}>Áreas de Atuação</h2>
-            <p className="text-lg max-w-2xl mx-auto" style={{color: '#d4af37'}}>
-              Expertise consolidada em três pilares do direito que protegem seus direitos
-            </p>
+
           </div>
 
           {/* Cards Grid */}
