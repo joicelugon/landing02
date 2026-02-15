@@ -33,13 +33,25 @@ export default function Home() {
           <div className="space-y-8">
             {/* Logo and Title Section */}
             <div className="flex flex-col items-start gap-6">
-              {/* Logo */}
-              <div className="w-40 h-auto">
-                <img 
-                  src="https://files.manuscdn.com/user_upload_by_module/session_file/310519663359530297/lEeWLDCkWdDhlEon.png" 
-                  alt="Joice Lugon - Advogada e Consultora" 
-                  className="w-full object-contain"
-                />
+              {/* Logo and Photo Container */}
+              <div className="flex items-center gap-6">
+                {/* Logo */}
+                <div className="w-32 h-auto flex-shrink-0">
+                  <img 
+                    src="https://files.manuscdn.com/user_upload_by_module/session_file/310519663359530297/lEeWLDCkWdDhlEon.png" 
+                    alt="Joice Lugon - Advogada e Consultora" 
+                    className="w-full object-contain"
+                  />
+                </div>
+                
+                {/* Circular Photo */}
+                <div className="w-32 h-32 rounded-full overflow-hidden border-4 border-primary/50 shadow-lg flex-shrink-0">
+                  <img 
+                    src="https://files.manuscdn.com/user_upload_by_module/session_file/310519663359530297/SnJAJdjzDYCQdLEP.png" 
+                    alt="Dra. Joice Lugon" 
+                    className="w-full h-full object-cover"
+                  />
+                </div>
               </div>
               
               {/* Main Title */}
@@ -72,19 +84,7 @@ export default function Home() {
             </div>
           </div>
 
-          {/* Mobile Photo - Dra. Joice */}
-          <div className="md:hidden mt-8">
-            <div className="relative w-48 h-56 mx-auto">
-              <div className="absolute inset-0 bg-gradient-to-br from-primary/30 to-primary/5 rounded-2xl blur-2xl"></div>
-              <div className="relative z-10 rounded-xl overflow-hidden border-2 border-primary/30 shadow-lg">
-                <img 
-                  src="https://files.manuscdn.com/user_upload_by_module/session_file/310519663359530297/SnJAJdjzDYCQdLEP.png" 
-                  alt="Dra. Joice Lugon" 
-                  className="w-full h-full object-cover"
-                />
-              </div>
-            </div>
-          </div>
+
           {/* Right Content - Dra. Joice Photo */}
           <div className="hidden md:flex items-center justify-center">
             <div className="relative w-80 h-96 flex items-center justify-center">
