@@ -55,13 +55,13 @@ export default function Home() {
               </div>
               
               {/* Main Title */}
-              <h1 className="text-5xl md:text-6xl font-bold leading-tight" style={{fontFamily: '"Playfair Display", serif', textAlign: 'left'}}>
+              <h1 className="text-5xl md:text-6xl font-bold leading-tight" style={{fontFamily: '"Playfair Display", serif', textAlign: 'left', fontSize: '51px'}}>
                 O direito não socorre <span className="text-primary">aos que dormem</span>
               </h1>
             </div>
 
             {/* Description */}
-            <p className="text-lg text-muted-foreground max-w-md">
+            <p className="text-lg text-muted-foreground max-w-md" style={{fontSize: '15px', textAlign: 'left'}}>
               Dra. Joice Lugon oferece consultoria especializada em direito trabalhista, previdenciário e consumidor com foco em resultados.
             </p>
 
