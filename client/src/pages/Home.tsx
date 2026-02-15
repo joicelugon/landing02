@@ -55,7 +55,7 @@ export default function Home() {
               </div>
               
               {/* Main Title */}
-              <h1 className="text-5xl md:text-6xl font-bold leading-tight">
+              <h1 className="text-5xl md:text-6xl font-bold leading-tight" style={{fontFamily: '"Playfair Display", serif'}}>
                 Justiça <span className="text-primary">Acessível</span> para Todos
               </h1>
             </div>
