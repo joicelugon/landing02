@@ -10,9 +10,9 @@ export default function Home() {
       {/* Navigation Header */}
       <header className="fixed top-0 left-0 right-0 z-50 bg-background/80 backdrop-blur-sm border-b border-border">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-16 flex items-center justify-between" style={{backgroundColor: '#350035'}}>
-          <nav className="flex items-center gap-8">
-            <a href="#areas" className="hidden md:inline text-foreground hover:text-primary transition">Áreas</a>
-            <a href="#contact" className="hidden md:inline text-foreground hover:text-primary transition">Contato</a>
+          <nav className="flex items-center gap-4 md:gap-8">
+            <a href="#areas" className="text-foreground hover:text-primary transition text-sm md:text-base">Áreas</a>
+            <a href="#contact" className="text-foreground hover:text-primary transition text-sm md:text-base">Contato</a>
             <Button className="hidden md:inline-flex bg-yellow-500 text-gray-900 hover:bg-yellow-600 font-semibold">
               Agendar Consulta
             </Button>
