@@ -31,16 +31,22 @@ export default function Home() {
         <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 grid grid-cols-1 md:grid-cols-2 gap-12 items-center w-full">
           {/* Left Content */}
           <div className="space-y-8">
-            {/* Badge */}
-            <div className="inline-flex items-center gap-2 px-4 py-2 bg-card border border-border rounded-full">
-              <span className="text-primary">✨</span>
-              <span className="text-sm text-foreground">Especialista em Direito Trabalhista</span>
+            {/* Logo and Title Section */}
+            <div className="flex flex-col items-start gap-6">
+              {/* Logo */}
+              <div className="w-40 h-auto">
+                <img 
+                  src="https://files.manuscdn.com/user_upload_by_module/session_file/310519663359530297/lEeWLDCkWdDhlEon.png" 
+                  alt="Joice Lugon - Advogada e Consultora" 
+                  className="w-full object-contain"
+                />
+              </div>
+              
+              {/* Main Title */}
+              <h1 className="text-5xl md:text-6xl font-bold leading-tight">
+                Justiça <span className="text-primary">Acessível</span> para Todos
+              </h1>
             </div>
-
-            {/* Main Title */}
-            <h1 className="text-5xl md:text-6xl font-bold leading-tight">
-              Justiça <span className="text-primary">Acessível</span> para Todos
-            </h1>
 
             {/* Description */}
             <p className="text-lg text-muted-foreground max-w-md">
@@ -64,22 +70,21 @@ export default function Home() {
                 Centenas de clientes satisfeitos com resultados comprovados
               </p>
             </div>
+          </div>
 
-            {/* Mobile Photo - Dra. Joice */}
-            <div className="md:hidden mt-8">
-              <div className="relative w-48 h-56 mx-auto">
-                <div className="absolute inset-0 bg-gradient-to-br from-primary/30 to-primary/5 rounded-2xl blur-2xl"></div>
-                <div className="relative z-10 rounded-xl overflow-hidden border-2 border-primary/30 shadow-lg">
-                  <img 
-                    src="https://files.manuscdn.com/user_upload_by_module/session_file/310519663359530297/SnJAJdjzDYCQdLEP.png" 
-                    alt="Dra. Joice Lugon" 
-                    className="w-full h-full object-cover"
-                  />
-                </div>
+          {/* Mobile Photo - Dra. Joice */}
+          <div className="md:hidden mt-8">
+            <div className="relative w-48 h-56 mx-auto">
+              <div className="absolute inset-0 bg-gradient-to-br from-primary/30 to-primary/5 rounded-2xl blur-2xl"></div>
+              <div className="relative z-10 rounded-xl overflow-hidden border-2 border-primary/30 shadow-lg">
+                <img 
+                  src="https://files.manuscdn.com/user_upload_by_module/session_file/310519663359530297/SnJAJdjzDYCQdLEP.png" 
+                  alt="Dra. Joice Lugon" 
+                  className="w-full h-full object-cover"
+                />
               </div>
             </div>
           </div>
-
           {/* Right Content - Dra. Joice Photo */}
           <div className="hidden md:flex items-center justify-center">
             <div className="relative w-80 h-96 flex items-center justify-center">
