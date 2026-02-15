@@ -100,10 +100,10 @@ export default function Home() {
       </section>
 
       {/* Areas Section */}
-      <section id="areas" className="py-20" style={{backgroundColor: '#1a001a'}}>
+      <section id="areas" className="py-32" style={{backgroundColor: '#1a001a'}}>
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8" style={{backgroundColor: '#3c003c'}}>
           {/* Section Header */}
-          <div className="text-center mb-16">
+          <div className="text-center mb-16 pt-8">
             <h2 className="text-4xl md:text-5xl font-bold mb-4" style={{color: '#f0e44f'}}>Áreas de Atuação</h2>
 
           </div>
