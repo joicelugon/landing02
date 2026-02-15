@@ -22,10 +22,10 @@ jobs:
         with:
           node-version: 18
 
-      - name: Install dependencies
-        run: |
-          cd client
-          npm install
+- name: Install dependencies
+  run: |
+    cd client
+    npm install --legacy-peer-deps
 
       - name: Build project
         run: |
