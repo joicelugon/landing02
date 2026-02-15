@@ -109,14 +109,14 @@ export default function Home() {
           {/* Cards Grid */}
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             {/* Previdenciário */}
-            <div className="group p-8 bg-background border border-border rounded-lg hover:border-primary/50 transition-all duration-300 cursor-pointer"
+            <div className="group p-6 bg-background border border-border rounded-lg hover:border-primary/50 transition-all duration-300 cursor-pointer"
               onMouseEnter={() => setActiveArea('previdenciario')}
               onMouseLeave={() => setActiveArea(null)}>
-              <div className="mb-6">
-                <div className="w-12 h-12 bg-primary/20 rounded-lg flex items-center justify-center mb-4">
-                  <Briefcase className="w-6 h-6 text-primary" />
+              <div className="mb-4">
+                <div className="w-10 h-10 bg-primary/20 rounded-lg flex items-center justify-center mb-3">
+                  <Briefcase className="w-5 h-5 text-primary" />
                 </div>
-                <h3 className="text-2xl font-bold text-foreground">Previdenciário</h3>
+                <h3 className="text-lg font-bold text-foreground">Previdenciário</h3>
               </div>
 
               <ul className="space-y-3">
@@ -132,14 +132,14 @@ export default function Home() {
             </div>
 
             {/* Trabalhista */}
-            <div className="group p-8 bg-background border border-border rounded-lg hover:border-primary/50 transition-all duration-300 cursor-pointer"
+            <div className="group p-6 bg-background border border-border rounded-lg hover:border-primary/50 transition-all duration-300 cursor-pointer"
               onMouseEnter={() => setActiveArea('trabalhista')}
               onMouseLeave={() => setActiveArea(null)}>
-              <div className="mb-6">
-                <div className="w-12 h-12 bg-primary/20 rounded-lg flex items-center justify-center mb-4">
-                  <Shield className="w-6 h-6 text-primary" />
+              <div className="mb-4">
+                <div className="w-10 h-10 bg-primary/20 rounded-lg flex items-center justify-center mb-3">
+                  <Shield className="w-5 h-5 text-primary" />
                 </div>
-                <h3 className="text-2xl font-bold text-foreground">Trabalhista</h3>
+                <h3 className="text-lg font-bold text-foreground">Trabalhista</h3>
               </div>
 
               <ul className="space-y-3">
@@ -155,14 +155,14 @@ export default function Home() {
             </div>
 
             {/* Consumidor */}
-            <div className="group p-8 bg-background border border-border rounded-lg hover:border-primary/50 transition-all duration-300 cursor-pointer"
+            <div className="group p-6 bg-background border border-border rounded-lg hover:border-primary/50 transition-all duration-300 cursor-pointer"
               onMouseEnter={() => setActiveArea('consumidor')}
               onMouseLeave={() => setActiveArea(null)}>
-              <div className="mb-6">
-                <div className="w-12 h-12 bg-primary/20 rounded-lg flex items-center justify-center mb-4">
-                  <Users className="w-6 h-6 text-primary" />
+              <div className="mb-4">
+                <div className="w-10 h-10 bg-primary/20 rounded-lg flex items-center justify-center mb-3">
+                  <Users className="w-5 h-5 text-primary" />
                 </div>
-                <h3 className="text-2xl font-bold text-foreground">Consumidor</h3>
+                <h3 className="text-lg font-bold text-foreground">Consumidor</h3>
               </div>
 
               <ul className="space-y-3">
