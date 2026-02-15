@@ -56,7 +56,7 @@ export default function Home() {
               
               {/* Main Title */}
               <h1 className="text-5xl md:text-6xl font-bold leading-tight" style={{fontFamily: '"Playfair Display", serif', textAlign: 'left'}}>
-                O direito não socorre aos que <span className="text-primary">dormem</span>
+                O direito não socorre <span className="text-primary">aos que dormem</span>
               </h1>
             </div>
 
