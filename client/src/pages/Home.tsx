@@ -21,7 +21,7 @@ export default function Home() {
       </header>
 
       {/* Hero Section */}
-      <section className="relative min-h-screen flex items-center pt-20 overflow-hidden" style={{backgroundColor: '#1a0a1f'}}>
+      <section className="relative min-h-screen flex items-center pt-16 overflow-hidden" style={{backgroundColor: '#1a0a1f'}}>
         {/* Background gradient */}
         <div className="absolute inset-0 -z-10" style={{backgroundColor: '#1a0a1f'}}></div>
         
@@ -97,10 +97,10 @@ export default function Home() {
       </section>
 
       {/* Areas Section */}
-      <section id="areas" className="py-32" style={{backgroundColor: '#1a001a'}}>
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8" style={{backgroundColor: '#3c003c'}}>
+      <section id="areas" className="py-16" style={{backgroundColor: '#1a001a'}}>
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8" style={{backgroundColor: '#240024'}}>
           {/* Section Header */}
-          <div className="text-center mb-16 pt-8">
+          <div className="text-center mb-12 pt-4">
             <h2 className="text-4xl md:text-5xl font-bold mb-4" style={{color: '#f0e44f'}}>Áreas de Atuação</h2>
 
           </div>
