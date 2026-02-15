@@ -9,7 +9,7 @@ export default function Home() {
     <div className="min-h-screen bg-background text-foreground overflow-hidden">
       {/* Navigation Header */}
       <header className="fixed top-0 left-0 right-0 z-50 bg-background/80 backdrop-blur-sm border-b border-border">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-16 flex items-center justify-between">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-16 flex items-center justify-between" style={{backgroundColor: '#350035'}}>
           <nav className="hidden md:flex items-center gap-8">
             <a href="#areas" className="text-foreground hover:text-primary transition">Áreas</a>
             <a href="#contact" className="text-foreground hover:text-primary transition">Contato</a>
@@ -56,7 +56,7 @@ export default function Home() {
               
               {/* Main Title */}
               <h1 className="text-5xl md:text-6xl font-bold leading-tight" style={{fontFamily: '"Playfair Display", serif'}}>
-                Justiça <span className="text-primary">Acessível</span> para Todos
+                O direito não socorre aos que <span className="text-primary">dormem</span>
               </h1>
             </div>
 
