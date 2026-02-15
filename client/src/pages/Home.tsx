@@ -44,8 +44,8 @@ export default function Home() {
                   />
                 </div>
                 
-                {/* Circular Photo */}
-                <div className="w-32 h-32 rounded-full overflow-hidden border-4 border-primary/50 shadow-lg flex-shrink-0">
+                {/* Circular Photo - Mobile Only */}
+                <div className="md:hidden w-32 h-32 rounded-full overflow-hidden border-4 border-primary/50 shadow-lg flex-shrink-0">
                   <img 
                     src="https://files.manuscdn.com/user_upload_by_module/session_file/310519663359530297/SnJAJdjzDYCQdLEP.png" 
                     alt="Dra. Joice Lugon" 
