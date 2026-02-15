@@ -24,9 +24,9 @@ export default function Home() {
       </header>
 
       {/* Hero Section */}
-      <section className="relative min-h-screen flex items-center pt-20 overflow-hidden">
+      <section className="relative min-h-screen flex items-center pt-20 overflow-hidden" style={{backgroundColor: '#1a0a1f'}}>
         {/* Background gradient */}
-        <div className="absolute inset-0 bg-gradient-to-br from-background via-background to-card -z-10"></div>
+        <div className="absolute inset-0 -z-10" style={{backgroundColor: '#1a0a1f'}}></div>
         
         <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 grid grid-cols-1 md:grid-cols-2 gap-12 items-center w-full">
           {/* Left Content */}
@@ -104,12 +104,12 @@ export default function Home() {
       </section>
 
       {/* Areas Section */}
-      <section id="areas" className="py-20 bg-card/50" style={{backgroundColor: '#370037'}}>
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8" style={{backgroundColor: '#2c0c36'}}>
+      <section id="areas" className="py-20" style={{backgroundColor: '#d4af37'}}>
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8" style={{backgroundColor: '#d4af37'}}>
           {/* Section Header */}
           <div className="text-center mb-16">
-            <h2 className="text-4xl md:text-5xl font-bold mb-4">Áreas de Atuação</h2>
-            <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
+            <h2 className="text-4xl md:text-5xl font-bold mb-4" style={{color: '#1a0a1f'}}>Áreas de Atuação</h2>
+            <p className="text-lg max-w-2xl mx-auto" style={{color: '#1a0a1f'}}>
               Expertise consolidada em três pilares do direito que protegem seus direitos
             </p>
           </div>
@@ -195,9 +195,9 @@ export default function Home() {
       </section>
 
       {/* Contact Section */}
-      <section id="contact" className="py-20 bg-card/50">
+      <section id="contact" className="py-20" style={{backgroundColor: '#1a0a1f'}}>
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h2 className="text-4xl md:text-5xl font-bold text-center mb-16">Entre em Contato</h2>
+          <h2 className="text-4xl md:text-5xl font-bold text-center mb-16" style={{color: '#d4af37'}}>Entre em Contato</h2>
           
           <div className="grid grid-cols-1 md:grid-cols-3 gap-12">
             {/* Email */}
