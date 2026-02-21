@@ -54,14 +54,14 @@ export default function Home() {
               </div>
               
               {/* Main Title */}
-              <h1 className="text-5xl md:text-6xl font-bold leading-tight" style={{fontFamily: '"Playfair Display", serif', textAlign: 'left', fontSize: '51px'}}>
-                O direito não socorre <span className="text-primary">aos que dormem</span>
+              <h1 className="text-2xl md:text-3xl font-bold leading-tight" style={{fontFamily: '"Playfair Display", serif', textAlign: 'left'}}>
+                Advogada dedicada à defesa dos direitos trabalhistas, com atuação focada na orientação estratégica e <span className="text-primary">humanizada</span> de clientes e empresas.
               </h1>
             </div>
 
             {/* Description */}
-            <p className="text-lg text-muted-foreground max-w-md" style={{fontSize: '15px', textAlign: 'left'}}>
-              Dra. Joice Lugon oferece consultoria especializada em direito trabalhista, previdenciário e consumidor com foco em resultados.
+            <p className="text-lg text-muted-foreground max-w-2xl" style={{fontSize: '15px', textAlign: 'left'}}>
+              Meu trabalho é guiado pela técnica jurídica aliada à escuta atenta, buscando soluções eficientes, seguras e personalizadas para cada situação. Acredito na advocacia como instrumento de justiça, prevenção de conflitos e transformação de realidades.
             </p>
 
             {/* CTA Buttons */}
