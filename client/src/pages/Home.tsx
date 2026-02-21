@@ -67,7 +67,7 @@ export default function Home() {
             </div>
 
             {/* Description */}
-            <p className="text-lg text-muted-foreground max-w-2xl" style={{fontSize: '15px', textAlign: 'left'}}>
+            <p className="text-lg text-muted-foreground max-w-2xl" style={{fontSize: '15px', textAlign: 'justify'}}>
               Pós-graduada em Direito e Processo do Trabalho, minha atuação é guiada, há 14 anos, pela técnica jurídica aliada à escuta atenta, buscando soluções eficientes e personalizadas para cada situação. Acreditando na advocacia como instrumento de justiça, prevenção de conflitos e transformação de realidades.
             </p>
 
