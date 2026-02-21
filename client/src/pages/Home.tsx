@@ -22,7 +22,7 @@ export default function Home() {
             <a href="#contact" className="text-foreground hover:text-primary transition text-sm md:text-base">Contato</a>
             <a href="https://wa.me/+5527995743351" target="_blank" rel="noopener noreferrer">
               <Button className="hidden md:inline-flex bg-yellow-500 text-gray-900 hover:bg-yellow-600 font-semibold">
-                Agendar Consulta
+                Fale com a Advogada
               </Button>
             </a>
           </nav>
@@ -75,7 +75,7 @@ export default function Home() {
             <div className="flex flex-col sm:flex-row gap-4">
               <a href="https://wa.me/+5527995743351" target="_blank" rel="noopener noreferrer">
                 <Button size="lg" className="bg-yellow-500 text-gray-900 hover:bg-yellow-600 font-semibold">
-                  Agendar Consulta
+                  Fale com a Advogada
                 </Button>
               </a>
               <Button size="lg" variant="outline" className="border-border hover:bg-card text-foreground">
