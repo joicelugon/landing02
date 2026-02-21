@@ -55,7 +55,7 @@ export default function Home() {
               
               {/* Main Title */}
               <h1 className="text-lg md:text-xl font-semibold leading-relaxed" style={{fontFamily: '"Lato", sans-serif', textAlign: 'left'}}>
-                Advogada dedicada à defesa dos direitos trabalhistas, com atuação focada na orientação estratégica e <span className="text-primary">humanizada</span> de clientes e empresas.
+                Advogada dedicada à defesa dos direitos, com atuação focada na orientação estratégica e <span className="text-primary">humanizada</span> de clientes e empresas.
               </h1>
             </div>
 
