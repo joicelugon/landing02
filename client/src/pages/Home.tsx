@@ -13,9 +13,11 @@ export default function Home() {
           <nav className="flex items-center gap-4 md:gap-8">
             <a href="#areas" className="text-foreground hover:text-primary transition text-sm md:text-base">Áreas</a>
             <a href="#contact" className="text-foreground hover:text-primary transition text-sm md:text-base">Contato</a>
-            <Button className="hidden md:inline-flex bg-yellow-500 text-gray-900 hover:bg-yellow-600 font-semibold">
-              Agendar Consulta
-            </Button>
+            <a href="https://wa.me/+5527995743351" target="_blank" rel="noopener noreferrer">
+              <Button className="hidden md:inline-flex bg-yellow-500 text-gray-900 hover:bg-yellow-600 font-semibold">
+                Agendar Consulta
+              </Button>
+            </a>
           </nav>
         </div>
       </header>
