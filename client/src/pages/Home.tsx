@@ -110,10 +110,10 @@ export default function Home() {
           {/* Cards Grid */}
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
             {/* Previdenciário */}
-            <div className="group relative p-8 bg-gradient-to-br from-purple-900/40 to-purple-950/60 border border-primary/30 rounded-xl hover:border-primary/60 transition-all duration-500 cursor-pointer overflow-hidden"
+            <div className="group relative p-6 bg-transparent border border-primary/20 rounded-lg hover:border-primary/40 transition-all duration-300 cursor-pointer overflow-hidden"
               onMouseEnter={() => setActiveArea('previdenciario')}
               onMouseLeave={() => setActiveArea(null)}>
-              <div className="absolute inset-0 bg-gradient-to-br from-primary/10 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
+              <div className="absolute inset-0 bg-gradient-to-br from-primary/5 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
               <div className="relative z-10">
                 <div className="mb-6">
                   <div className="w-14 h-14 bg-gradient-to-br from-primary/40 to-primary/20 rounded-xl flex items-center justify-center mb-4 group-hover:scale-110 transition-transform duration-300">
@@ -136,10 +136,10 @@ export default function Home() {
             </div>
 
             {/* Trabalhista */}
-            <div className="group relative p-8 bg-gradient-to-br from-purple-900/40 to-purple-950/60 border border-primary/30 rounded-xl hover:border-primary/60 transition-all duration-500 cursor-pointer overflow-hidden"
+            <div className="group relative p-6 bg-transparent border border-primary/20 rounded-lg hover:border-primary/40 transition-all duration-300 cursor-pointer overflow-hidden"
               onMouseEnter={() => setActiveArea('trabalhista')}
               onMouseLeave={() => setActiveArea(null)}>
-              <div className="absolute inset-0 bg-gradient-to-br from-primary/10 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
+              <div className="absolute inset-0 bg-gradient-to-br from-primary/5 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
               <div className="relative z-10">
                 <div className="mb-6">
                   <div className="w-14 h-14 bg-gradient-to-br from-primary/40 to-primary/20 rounded-xl flex items-center justify-center mb-4 group-hover:scale-110 transition-transform duration-300">
@@ -162,10 +162,10 @@ export default function Home() {
             </div>
 
             {/* Consumidor */}
-            <div className="group relative p-8 bg-gradient-to-br from-purple-900/40 to-purple-950/60 border border-primary/30 rounded-xl hover:border-primary/60 transition-all duration-500 cursor-pointer overflow-hidden"
+            <div className="group relative p-6 bg-transparent border border-primary/20 rounded-lg hover:border-primary/40 transition-all duration-300 cursor-pointer overflow-hidden"
               onMouseEnter={() => setActiveArea('consumidor')}
               onMouseLeave={() => setActiveArea(null)}>
-              <div className="absolute inset-0 bg-gradient-to-br from-primary/10 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
+              <div className="absolute inset-0 bg-gradient-to-br from-primary/5 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
               <div className="relative z-10">
                 <div className="mb-6">
                   <div className="w-14 h-14 bg-gradient-to-br from-primary/40 to-primary/20 rounded-xl flex items-center justify-center mb-4 group-hover:scale-110 transition-transform duration-300">
