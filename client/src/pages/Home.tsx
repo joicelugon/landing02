@@ -35,7 +35,7 @@ export default function Home() {
               {/* Logo and Photo Container */}
               <div className="flex items-center gap-6 md:flex-col md:items-center">
                 {/* Logo */}
-                <div className="w-40 h-auto flex-shrink-0 md:w-56">
+                <div className="w-40 h-auto flex-shrink-0 md:w-80">
                   <img 
                     src="https://files.manuscdn.com/user_upload_by_module/session_file/310519663359530297/HvARWolzaFqAbWbW.png" 
                     alt="Joice Lugon - Advogada e Consultora" 
