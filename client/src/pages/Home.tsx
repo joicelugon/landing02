@@ -4,7 +4,7 @@ import { Mail, Phone, Instagram, Music, Briefcase, Shield, Users } from "lucide-
 import { useState } from "react";
 
 const TikTokIcon = () => (
-  <svg viewBox="0 0 24 24" fill="currentColor" width="24" height="24">
+  <svg viewBox="0 0 24 24" fill="#d4af37" width="24" height="24">
     <path d="M19.59 6.69a4.83 4.83 0 0 1-3.77-4.25V2h-3.68v13.67a2.4 2.4 0 0 1-2.4 2.4 2.4 2.4 0 0 1-2.4-2.4 2.4 2.4 0 0 1 2.4-2.4c.34 0 .67.05.98.15V9.48a5.64 5.64 0 0 0-.98-.08 5.64 5.64 0 0 0 0 11.28 5.64 5.64 0 0 0 5.64-5.64V9.97a7.44 7.44 0 0 0 4.58 1.55v-3.83a4.83 4.83 0 0 1-.81-.07z"/>
   </svg>
 );
