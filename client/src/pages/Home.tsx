@@ -54,7 +54,7 @@ export default function Home() {
               </div>
               
               {/* Main Title */}
-              <h1 className="text-2xl md:text-3xl font-bold leading-tight" style={{fontFamily: '"Playfair Display", serif', textAlign: 'left'}}>
+              <h1 className="text-lg md:text-xl font-semibold leading-relaxed" style={{fontFamily: '"Playfair Display", serif', textAlign: 'left'}}>
                 Advogada dedicada à defesa dos direitos trabalhistas, com atuação focada na orientação estratégica e <span className="text-primary">humanizada</span> de clientes e empresas.
               </h1>
             </div>
