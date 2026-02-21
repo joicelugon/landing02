@@ -1,6 +1,13 @@
 import { Button } from "@/components/ui/button";
 import { Mail, Phone, Instagram, Music, Briefcase, Shield, Users } from "lucide-react";
+
 import { useState } from "react";
+
+const TikTokIcon = () => (
+  <svg viewBox="0 0 24 24" fill="currentColor" width="24" height="24">
+    <path d="M19.59 6.69a4.83 4.83 0 0 1-3.77-4.25V2h-3.68v13.67a2.4 2.4 0 0 1-2.4 2.4 2.4 2.4 0 0 1-2.4-2.4 2.4 2.4 0 0 1 2.4-2.4c.34 0 .67.05.98.15V9.48a5.64 5.64 0 0 0-.98-.08 5.64 5.64 0 0 0 0 11.28 5.64 5.64 0 0 0 5.64-5.64V9.97a7.44 7.44 0 0 0 4.58 1.55v-3.83a4.83 4.83 0 0 1-.81-.07z"/>
+  </svg>
+);
 
 export default function Home() {
   const [activeArea, setActiveArea] = useState<string | null>(null);
@@ -229,7 +236,7 @@ export default function Home() {
                   <Instagram className="w-6 h-6 text-primary" />
                 </a>
                 <a href="http://www.tiktok.com/@joicelugon.adv" target="_blank" rel="noopener noreferrer" className="inline-flex items-center justify-center w-14 h-14 bg-primary/20 rounded-lg hover:bg-primary/30 transition">
-                  <Music className="w-6 h-6 text-primary" />
+                  <TikTokIcon />
                 </a>
               </div>
               <h3 className="text-xl font-bold text-foreground mb-2">Redes Sociais</h3>
