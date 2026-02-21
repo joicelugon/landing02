@@ -15,24 +15,24 @@ export default function Home() {
   return (
     <div className="min-h-screen bg-background text-foreground overflow-hidden">
       {/* Navigation Header */}
-      <header className="fixed top-0 left-0 right-0 z-50 bg-background/80 backdrop-blur-sm border-b border-border">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-16 flex items-center justify-between" style={{backgroundColor: '#350035'}}>
-          <nav className="flex items-center gap-4 md:gap-8">
-            <a href="#areas" className="text-foreground hover:text-primary transition text-sm md:text-base">Áreas</a>
-            <a href="#contact" className="text-foreground hover:text-primary transition text-sm md:text-base">Contato</a>
+      <nav className="fixed top-0 left-0 right-0 z-50 bg-background/80 backdrop-blur-md border-b border-border">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex items-center justify-between h-16">
+          <div className="text-xl font-bold text-primary">Joice Lugon</div>
+          <div className="hidden md:flex items-center gap-8">
+            <a href="#areas" className="text-foreground hover:text-primary transition">Áreas</a>
+            <a href="#contact" className="text-foreground hover:text-primary transition">Contato</a>
             <a href="https://wa.me/+5527995743351" target="_blank" rel="noopener noreferrer">
-              <Button className="hidden md:inline-flex bg-yellow-500 text-gray-900 hover:bg-yellow-600 font-semibold">
+              <Button size="sm" className="bg-yellow-500 text-gray-900 hover:bg-yellow-600 font-semibold">
                 Agendar Consulta
               </Button>
             </a>
-          </nav>
+          </div>
         </div>
-      </header>
+      </nav>
 
       {/* Hero Section */}
-      <section className="relative min-h-screen flex items-center pt-16 overflow-hidden" style={{backgroundColor: '#1a0a1f'}}>
-        {/* Background gradient */}
-        <div className="absolute inset-0 -z-10" style={{backgroundColor: '#1a0a1f'}}></div>
+      <section className="relative pt-32 pb-20 overflow-hidden" style={{backgroundColor: '#1a001a'}}>
+        <div className="absolute inset-0 opacity-30"></div>
         
         <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 grid grid-cols-1 md:grid-cols-2 gap-12 items-center w-full">
           {/* Left Content */}
@@ -51,12 +51,15 @@ export default function Home() {
                 </div>
                 
                 {/* Circular Photo - Mobile Only */}
-                <div className="md:hidden w-32 h-32 rounded-full overflow-hidden border-4 border-primary/50 shadow-lg flex-shrink-0">
-                  <img 
-                    src="https://files.manuscdn.com/user_upload_by_module/session_file/310519663359530297/SnJAJdjzDYCQdLEP.png" 
-                    alt="Dra. Joice Lugon" 
-                    className="w-full h-full object-cover"
-                  />
+                <div className="md:hidden flex flex-col items-center">
+                  <div className="w-32 h-32 rounded-full overflow-hidden border-4 border-primary/50 shadow-lg flex-shrink-0">
+                    <img 
+                      src="https://files.manuscdn.com/user_upload_by_module/session_file/310519663359530297/SnJAJdjzDYCQdLEP.png" 
+                      alt="Dra. Joice Lugon" 
+                      className="w-full h-full object-cover"
+                    />
+                  </div>
+                  <p className="text-xs text-muted-foreground mt-2">OAB 20.778/ES</p>
                 </div>
               </div>
               
@@ -88,19 +91,20 @@ export default function Home() {
 
 
           {/* Right Content - Dra. Joice Photo */}
-          <div className="hidden md:flex items-center justify-center">
+          <div className="hidden md:flex flex-col items-center justify-center">
             <div className="relative w-80 h-96 flex items-center justify-center">
               {/* Background glow effect */}
               <div className="absolute inset-0 bg-gradient-to-br from-primary/30 to-primary/5 rounded-3xl blur-3xl"></div>
               {/* Photo container */}
-              <div className="relative z-10 rounded-2xl overflow-hidden border-2 border-primary/30 shadow-2xl">
+              <div className="relative w-80 h-96 rounded-2xl overflow-hidden border-4 border-primary/30 shadow-2xl">
                 <img 
-                  src="https://files.manuscdn.com/user_upload_by_module/session_file/310519663359530297/SnJAJdjzDYCQdLEP.png" 
-                  alt="Dra. Joice Lugon" 
+                  src="https://files.manuscdn.com/user_upload_by_module/session_file/310519663359530297/HvARWolzaFqAbWbW.png" 
+                  alt="Joice Lugon - Advogada e Consultora" 
                   className="w-full h-full object-cover"
                 />
               </div>
             </div>
+            <p className="text-xs text-muted-foreground mt-3">OAB 20.778/ES</p>
           </div>
         </div>
       </section>
@@ -205,26 +209,22 @@ export default function Home() {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-12">
             {/* Email */}
             <div className="text-center">
-              <div className="flex justify-center mb-4">
-                <a href="mailto:joicelugon.adv@gmail.com" className="inline-flex items-center justify-center w-14 h-14 bg-primary/20 rounded-lg hover:bg-primary/30 transition">
-                  <Mail className="w-6 h-6 text-primary" />
-                </a>
+              <div className="flex items-center justify-center w-14 h-14 bg-primary/20 rounded-lg hover:bg-primary/30 transition mx-auto mb-4">
+                <Mail className="w-6 h-6 text-primary" />
               </div>
-              <h3 className="text-xl font-bold text-foreground mb-2">E-mail</h3>
-              <a href="mailto:joicelugon.adv@gmail.com" className="text-primary hover:text-primary/80 transition">
-                joicelugon.adv@gmail.com
+              <h3 className="text-xl font-bold text-foreground mb-2">Email</h3>
+              <a href="mailto:joice@joicelugon.com.br" className="text-primary hover:text-primary/80 transition">
+                joice@joicelugon.com.br
               </a>
             </div>
 
-            {/* WhatsApp */}
+            {/* Phone */}
             <div className="text-center">
-              <div className="flex justify-center mb-4">
-                <a href="https://wa.me/+5527995743351" className="inline-flex items-center justify-center w-14 h-14 bg-primary/20 rounded-lg hover:bg-primary/30 transition">
-                  <Phone className="w-6 h-6 text-primary" />
-                </a>
+              <div className="flex items-center justify-center w-14 h-14 bg-primary/20 rounded-lg hover:bg-primary/30 transition mx-auto mb-4">
+                <Phone className="w-6 h-6 text-primary" />
               </div>
-              <h3 className="text-xl font-bold text-foreground mb-2">WhatsApp</h3>
-              <a href="https://wa.me/+5527995743351" className="text-primary hover:text-primary/80 transition">
+              <h3 className="text-xl font-bold text-foreground mb-2">Telefone</h3>
+              <a href="tel:+5527995743351" className="text-primary hover:text-primary/80 transition">
                 (27) 99574-3351
               </a>
             </div>
