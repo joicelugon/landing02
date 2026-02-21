@@ -88,7 +88,7 @@ export default function Home() {
 
 
           {/* Right Content - Dra. Joice Photo */}
-          <div className="hidden md:flex items-center justify-center">
+          <div className="hidden md:flex flex-col items-center justify-center">
             <div className="relative w-80 h-96 flex items-center justify-center">
               {/* Background glow effect */}
               <div className="absolute inset-0 bg-gradient-to-br from-primary/30 to-primary/5 rounded-3xl blur-3xl"></div>
@@ -101,6 +101,7 @@ export default function Home() {
                 />
               </div>
             </div>
+            <p className="text-xs text-muted-foreground mt-3">OAB: 20.778/ES</p>
           </div>
         </div>
       </section>
