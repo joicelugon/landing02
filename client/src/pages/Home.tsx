@@ -206,7 +206,7 @@ export default function Home() {
       <section id="contact" className="relative py-20 overflow-hidden">
         {/* Background image */}
         <div className="absolute inset-0" style={{
-          backgroundImage: 'url(https://d2xsxph8kpxj0f.cloudfront.net/310519663359530297/TfaWc8Lhn6YbnJ4da3LruK/lady-justice-purple-bg-YhA5jMPwGuLCL56S4MQKkU.webp)',
+          backgroundImage: 'url(https://d2xsxph8kpxj0f.cloudfront.net/310519663359530297/TfaWc8Lhn6YbnJ4da3LruK/ChatGPTImage21defev.de2026,19_14_29_301e89fd.png)',
           backgroundSize: 'cover',
           backgroundPosition: 'center',
           backgroundAttachment: 'fixed',
