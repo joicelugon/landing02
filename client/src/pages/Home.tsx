@@ -115,7 +115,7 @@ export default function Home() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8" style={{backgroundColor: '#f8f8f8'}}>
           {/* Section Header */}
           <div className="text-center mb-12 pt-4">
-            <h2 className="text-4xl md:text-5xl font-bold mb-4" style={{color: '#231b01'}}>Áreas de Atuação</h2>
+            <h2 className="text-4xl md:text-5xl font-bold mb-4" style={{color: '#231b01', fontFamily: '"Droid Serif", serif'}}>Áreas de Atuação</h2>
 
           </div>
 
@@ -217,7 +217,7 @@ export default function Home() {
         <div className="absolute inset-0" style={{backgroundColor: 'rgba(26, 10, 31, 0.50)', zIndex: 0}}></div>
         
         <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h2 className="text-4xl md:text-5xl font-bold text-center mb-16" style={{color: '#ffffff'}}>Entre em Contato</h2>
+          <h2 className="text-4xl md:text-5xl font-bold text-center mb-16" style={{color: '#ffffff', fontFamily: '"Droid Serif", serif'}}>Entre em Contato</h2>
           
           <div className="grid grid-cols-1 md:grid-cols-3 gap-12">
             {/* Email */}
