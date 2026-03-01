@@ -111,8 +111,8 @@ export default function Home() {
       </section>
 
       {/* Areas Section */}
-      <section id="areas" className="py-16" style={{backgroundColor: '#ffffff'}}>
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8" style={{backgroundColor: '#ffffff'}}>
+      <section id="areas" className="py-16" style={{backgroundColor: '#f8f8f8'}}>
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8" style={{backgroundColor: '#f8f8f8'}}>
           {/* Section Header */}
           <div className="text-center mb-12 pt-4">
             <h2 className="text-4xl md:text-5xl font-bold mb-4" style={{color: '#350035'}}>Áreas de Atuação</h2>
