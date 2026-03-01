@@ -203,9 +203,19 @@ export default function Home() {
       </section>
 
       {/* Contact Section */}
-      <section id="contact" className="py-20" style={{backgroundColor: '#1a0a1f'}}>
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h2 className="text-4xl md:text-5xl font-bold text-center mb-16" style={{color: '#d4af37'}}>Entre em Contato</h2>
+      <section id="contact" className="relative py-20 overflow-hidden">
+        {/* Background image */}
+        <div className="absolute inset-0 z-0" style={{
+          backgroundImage: 'url(https://d2xsxph8kpxj0f.cloudfront.net/310519663359530297/TfaWc8Lhn6YbnJ4da3LruK/ChatGPTImage21defev.de2026,19_14_29_0dad4587.png)',
+          backgroundSize: 'cover',
+          backgroundPosition: 'center',
+          backgroundAttachment: 'fixed'
+        }}></div>
+        {/* Background overlay */}
+        <div className="absolute inset-0 z-0" style={{backgroundColor: 'rgba(26, 10, 31, 0.7)'}}></div>
+        
+        <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <h2 className="text-4xl md:text-5xl font-bold text-center mb-16" style={{color: '#ffffff'}}>Entre em Contato</h2>
           
           <div className="grid grid-cols-1 md:grid-cols-3 gap-12">
             {/* Email */}
@@ -215,8 +225,8 @@ export default function Home() {
                   <Mail className="w-6 h-6 text-primary" />
                 </a>
               </div>
-              <h3 className="text-xl font-bold text-foreground mb-2">E-mail</h3>
-              <a href="mailto:joicelugon.adv@gmail.com" className="text-primary hover:text-primary/80 transition">
+              <h3 className="text-xl font-bold text-white mb-2">E-mail</h3>
+              <a href="mailto:joicelugon.adv@gmail.com" className="text-white hover:text-gray-300 transition">
                 joicelugon.adv@gmail.com
               </a>
             </div>
@@ -228,8 +238,8 @@ export default function Home() {
                   <Phone className="w-6 h-6 text-primary" />
                 </a>
               </div>
-              <h3 className="text-xl font-bold text-foreground mb-2">WhatsApp</h3>
-              <a href="https://wa.me/+5527995743351" className="text-primary hover:text-primary/80 transition">
+              <h3 className="text-xl font-bold text-white mb-2">WhatsApp</h3>
+              <a href="https://wa.me/+5527995743351" className="text-white hover:text-gray-300 transition">
                 (27) 99574-3351
               </a>
             </div>
@@ -244,13 +254,13 @@ export default function Home() {
                   <TikTokIcon />
                 </a>
               </div>
-              <h3 className="text-xl font-bold text-foreground mb-2">Redes Sociais</h3>
+              <h3 className="text-xl font-bold text-white mb-2">Redes Sociais</h3>
               <div className="flex items-center justify-center gap-4">
-                <a href="https://www.instagram.com/joicelugon.adv" target="_blank" rel="noopener noreferrer" className="text-primary hover:text-primary/80 transition">
+                <a href="https://www.instagram.com/joicelugon.adv" target="_blank" rel="noopener noreferrer" className="text-white hover:text-gray-300 transition">
                   Instagram
                 </a>
                 <span className="text-muted-foreground">•</span>
-                <a href="http://www.tiktok.com/@joicelugon.adv" target="_blank" rel="noopener noreferrer" className="text-primary hover:text-primary/80 transition">
+                <a href="http://www.tiktok.com/@joicelugon.adv" target="_blank" rel="noopener noreferrer" className="text-white hover:text-gray-300 transition">
                   TikTok
                 </a>
               </div>
