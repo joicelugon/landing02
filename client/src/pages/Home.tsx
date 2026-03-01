@@ -129,18 +129,18 @@ export default function Home() {
               <div className="relative z-10">
                 <div className="mb-6">
                   <div className="w-14 h-14 bg-gradient-to-br from-primary/20 to-primary/10 rounded-xl flex items-center justify-center mb-4 group-hover:scale-110 transition-transform duration-300">
-                    <Briefcase className="w-7 h-7 text-primary" />
+                    <Briefcase className="w-7 h-7" style={{color: '#231b01'}} />
                   </div>
                   <h3 className="text-xl font-bold group-hover:text-primary transition-colors duration-300" style={{color: '#231b01'}}>Previdenciário</h3>
                 </div>
 
                 <ul className="space-y-3">
                   <li className="flex items-center gap-3 text-gray-700 group-hover:text-gray-900 transition-colors duration-300">
-                    <span className="w-2.5 h-2.5 bg-primary rounded-full group-hover:scale-125 transition-transform duration-300"></span>
+                    <span className="w-2.5 h-2.5 rounded-full group-hover:scale-125 transition-transform duration-300" style={{backgroundColor: '#231b01'}}></span>
                     <span className="font-medium">Aposentadorias</span>
                   </li>
                   <li className="flex items-center gap-3 text-gray-700 group-hover:text-gray-900 transition-colors duration-300">
-                    <span className="w-2.5 h-2.5 bg-primary rounded-full group-hover:scale-125 transition-transform duration-300"></span>
+                    <span className="w-2.5 h-2.5 rounded-full group-hover:scale-125 transition-transform duration-300" style={{backgroundColor: '#231b01'}}></span>
                     <span className="font-medium">Benefícios INSS</span>
                   </li>
                 </ul>
@@ -155,18 +155,18 @@ export default function Home() {
               <div className="relative z-10">
                 <div className="mb-6">
                   <div className="w-14 h-14 bg-gradient-to-br from-primary/20 to-primary/10 rounded-xl flex items-center justify-center mb-4 group-hover:scale-110 transition-transform duration-300">
-                    <Shield className="w-7 h-7 text-primary" />
+                    <Shield className="w-7 h-7" style={{color: '#231b01'}} />
                   </div>
                   <h3 className="text-xl font-bold group-hover:text-primary transition-colors duration-300" style={{color: '#231b01'}}>Trabalhista</h3>
                 </div>
 
                 <ul className="space-y-3">
                   <li className="flex items-center gap-3 text-gray-700 group-hover:text-gray-900 transition-colors duration-300">
-                    <span className="w-2.5 h-2.5 bg-primary rounded-full group-hover:scale-125 transition-transform duration-300"></span>
+                    <span className="w-2.5 h-2.5 rounded-full group-hover:scale-125 transition-transform duration-300" style={{backgroundColor: '#231b01'}}></span>
                     <span className="font-medium">Direitos Trabalhistas</span>
                   </li>
                   <li className="flex items-center gap-3 text-gray-700 group-hover:text-gray-900 transition-colors duration-300">
-                    <span className="w-2.5 h-2.5 bg-primary rounded-full group-hover:scale-125 transition-transform duration-300"></span>
+                    <span className="w-2.5 h-2.5 rounded-full group-hover:scale-125 transition-transform duration-300" style={{backgroundColor: '#231b01'}}></span>
                     <span className="font-medium">Auditoria e Consultoria Empresarial</span>
                   </li>
                 </ul>
@@ -181,18 +181,18 @@ export default function Home() {
               <div className="relative z-10">
                 <div className="mb-6">
                   <div className="w-14 h-14 bg-gradient-to-br from-primary/20 to-primary/10 rounded-xl flex items-center justify-center mb-4 group-hover:scale-110 transition-transform duration-300">
-                    <Users className="w-7 h-7 text-primary" />
+                    <Users className="w-7 h-7" style={{color: '#231b01'}} />
                   </div>
                   <h3 className="text-xl font-bold group-hover:text-primary transition-colors duration-300" style={{color: '#231b01'}}>Consumidor</h3>
                 </div>
 
                 <ul className="space-y-3">
                   <li className="flex items-center gap-3 text-gray-700 group-hover:text-gray-900 transition-colors duration-300">
-                    <span className="w-2.5 h-2.5 bg-primary rounded-full group-hover:scale-125 transition-transform duration-300"></span>
+                    <span className="w-2.5 h-2.5 rounded-full group-hover:scale-125 transition-transform duration-300" style={{backgroundColor: '#231b01'}}></span>
                     <span className="font-medium">Defesa do Consumidor</span>
                   </li>
                   <li className="flex items-center gap-3 text-gray-700 group-hover:text-gray-900 transition-colors duration-300">
-                    <span className="w-2.5 h-2.5 bg-primary rounded-full group-hover:scale-125 transition-transform duration-300"></span>
+                    <span className="w-2.5 h-2.5 rounded-full group-hover:scale-125 transition-transform duration-300" style={{backgroundColor: '#231b01'}}></span>
                     <span className="font-medium">Reparação de Danos</span>
                   </li>
                 </ul>
