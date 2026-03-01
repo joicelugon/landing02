@@ -205,14 +205,15 @@ export default function Home() {
       {/* Contact Section */}
       <section id="contact" className="relative py-20 overflow-hidden">
         {/* Background image */}
-        <div className="absolute inset-0 z-0" style={{
+        <div className="absolute inset-0" style={{
           backgroundImage: 'url(https://d2xsxph8kpxj0f.cloudfront.net/310519663359530297/TfaWc8Lhn6YbnJ4da3LruK/ChatGPTImage21defev.de2026,19_14_29_0dad4587.png)',
           backgroundSize: 'cover',
           backgroundPosition: 'center',
-          backgroundAttachment: 'fixed'
+          backgroundAttachment: 'fixed',
+          zIndex: 0
         }}></div>
         {/* Background overlay */}
-        <div className="absolute inset-0 z-0" style={{backgroundColor: 'rgba(26, 10, 31, 0.7)'}}></div>
+        <div className="absolute inset-0" style={{backgroundColor: 'rgba(26, 10, 31, 0.7)', zIndex: 0}}></div>
         
         <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="text-4xl md:text-5xl font-bold text-center mb-16" style={{color: '#ffffff'}}>Entre em Contato</h2>
