@@ -31,8 +31,15 @@ export default function Home() {
 
       {/* Hero Section */}
       <section className="relative min-h-screen flex items-center pt-16 overflow-hidden" style={{backgroundColor: '#1a0a1f'}}>
-        {/* Background gradient */}
-        <div className="absolute inset-0 -z-10" style={{backgroundColor: '#1a0a1f'}}></div>
+        {/* Background image */}
+        <div className="absolute inset-0 -z-10" style={{
+          backgroundImage: 'url(https://d2xsxph8kpxj0f.cloudfront.net/310519663359530297/TfaWc8Lhn6YbnJ4da3LruK/ChatGPTImage21defev.de2026,19_20_01_500261da.png)',
+          backgroundSize: 'cover',
+          backgroundPosition: 'center',
+          backgroundAttachment: 'fixed'
+        }}></div>
+        {/* Background overlay */}
+        <div className="absolute inset-0 -z-10" style={{backgroundColor: 'rgba(26, 10, 31, 0.7)'}}></div>
         
         <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 grid grid-cols-1 md:grid-cols-2 gap-12 items-center w-full">
           {/* Left Content */}
