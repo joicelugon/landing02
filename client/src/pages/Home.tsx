@@ -85,9 +85,6 @@ export default function Home() {
                   Fale com a Advogada
                 </Button>
               </a>
-              <Button size="lg" variant="outline" className="border-border hover:bg-card text-foreground">
-                Saiba Mais
-              </Button>
             </div>
 
 
