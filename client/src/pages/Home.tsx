@@ -213,7 +213,7 @@ export default function Home() {
           zIndex: 0
         }}></div>
         {/* Background overlay */}
-        <div className="absolute inset-0" style={{backgroundColor: 'rgba(26, 10, 31, 0.7)', zIndex: 0}}></div>
+        <div className="absolute inset-0" style={{backgroundColor: 'rgba(26, 10, 31, 0.4)', zIndex: 0}}></div>
         
         <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="text-4xl md:text-5xl font-bold text-center mb-16" style={{color: '#ffffff'}}>Entre em Contato</h2>
