@@ -129,9 +129,9 @@ export default function Home() {
               <div className="relative z-10">
                 <div className="mb-6">
                   <div className="w-14 h-14 bg-gradient-to-br from-gray-400/20 to-gray-400/10 rounded-xl flex items-center justify-center mb-4 group-hover:scale-110 transition-transform duration-300">
-                    <Briefcase className="w-7 h-7" style={{color: '#3a3a3a'}} />
+                    <Briefcase className="w-7 h-7" style={{color: '#b8860b'}} />
                   </div>
-                  <h3 className="text-xl font-bold group-hover:text-gray-800 transition-colors duration-300" style={{color: '#3a3a3a'}}>Previdenciário</h3>
+                  <h3 className="text-xl font-bold group-hover:text-yellow-700 transition-colors duration-300" style={{color: '#b8860b'}}>Previdenciário</h3>
                 </div>
 
                 <ul className="space-y-3">
@@ -155,9 +155,9 @@ export default function Home() {
               <div className="relative z-10">
                 <div className="mb-6">
                   <div className="w-14 h-14 bg-gradient-to-br from-gray-400/20 to-gray-400/10 rounded-xl flex items-center justify-center mb-4 group-hover:scale-110 transition-transform duration-300">
-                    <Shield className="w-7 h-7" style={{color: '#3a3a3a'}} />
+                    <Shield className="w-7 h-7" style={{color: '#b8860b'}} />
                   </div>
-                  <h3 className="text-xl font-bold group-hover:text-gray-800 transition-colors duration-300" style={{color: '#3a3a3a'}}>Trabalhista</h3>
+                  <h3 className="text-xl font-bold group-hover:text-yellow-700 transition-colors duration-300" style={{color: '#b8860b'}}>Trabalhista</h3>
                 </div>
 
                 <ul className="space-y-3">
@@ -181,9 +181,9 @@ export default function Home() {
               <div className="relative z-10">
                 <div className="mb-6">
                   <div className="w-14 h-14 bg-gradient-to-br from-gray-400/20 to-gray-400/10 rounded-xl flex items-center justify-center mb-4 group-hover:scale-110 transition-transform duration-300">
-                    <Users className="w-7 h-7" style={{color: '#3a3a3a'}} />
+                    <Users className="w-7 h-7" style={{color: '#b8860b'}} />
                   </div>
-                  <h3 className="text-xl font-bold group-hover:text-gray-800 transition-colors duration-300" style={{color: '#3a3a3a'}}>Consumidor</h3>
+                  <h3 className="text-xl font-bold group-hover:text-yellow-700 transition-colors duration-300" style={{color: '#b8860b'}}>Consumidor</h3>
                 </div>
 
                 <ul className="space-y-3">
