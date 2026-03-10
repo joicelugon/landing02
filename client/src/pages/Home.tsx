@@ -96,6 +96,10 @@ export default function Home() {
               </a>
             </div>
 
+            {/* E-book Description */}
+            <p className="text-lg text-muted-foreground max-w-2xl" style={{fontSize: '12px', textAlign: 'justify'}}>
+              E-book com checklist prático de auditoria trabalhista para empresas de todos os portes. Permite identificar riscos, irregularidades e passivos trabalhistas antes que se tornem problemas ou ações judiciais. Uma ferramenta objetiva para empresários, advogados e RH garantirem conformidade com a legislação trabalhista.
+            </p>
 
           </div>
 
