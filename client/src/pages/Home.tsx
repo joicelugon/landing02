@@ -21,7 +21,7 @@ export default function Home() {
             <a href="#areas" className="text-foreground hover:text-primary transition text-sm md:text-base">Áreas</a>
             <a href="#contact" className="text-foreground hover:text-primary transition text-sm md:text-base">Contato</a>
             <a href="https://wa.me/+5527995743351" target="_blank" rel="noopener noreferrer">
-              <Button className="hidden md:inline-flex font-semibold" style={{backgroundColor: '#6B1C23', color: '#ffffff'}} onMouseEnter={(e) => e.currentTarget.style.backgroundColor = '#5A1620'} onMouseLeave={(e) => e.currentTarget.style.backgroundColor = '#6B1C23'}>
+              <Button className="hidden md:inline-flex font-semibold" style={{backgroundColor: '#9B4C57', color: '#ffffff'}} onMouseEnter={(e) => e.currentTarget.style.backgroundColor = '#8B3D47'} onMouseLeave={(e) => e.currentTarget.style.backgroundColor = '#9B4C57'}>
                 Fale com a Advogada
               </Button>
             </a>
@@ -81,7 +81,7 @@ export default function Home() {
             {/* CTA Buttons */}
             <div className="flex flex-col sm:flex-row gap-4">
               <a href="https://wa.me/+5527995743351" target="_blank" rel="noopener noreferrer">
-                <Button size="lg" className="font-semibold" style={{backgroundColor: '#6B1C23', color: '#ffffff'}} onMouseEnter={(e) => e.currentTarget.style.backgroundColor = '#5A1620'} onMouseLeave={(e) => e.currentTarget.style.backgroundColor = '#6B1C23'}>
+                <Button size="lg" className="font-semibold" style={{backgroundColor: '#9B4C57', color: '#ffffff'}} onMouseEnter={(e) => e.currentTarget.style.backgroundColor = '#8B3D47'} onMouseLeave={(e) => e.currentTarget.style.backgroundColor = '#9B4C57'}>
                   Fale com a Advogada
                 </Button>
               </a>
