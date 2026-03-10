@@ -64,7 +64,7 @@ export default function Home() {
                 {/* E-book Image - Mobile Only */}
                 <div className="md:hidden w-40 h-auto flex-shrink-0">
                   <img 
-                    src="https://files.manuscdn.com/user_upload_by_module/session_file/310519663359530297/JCWgkWztpRxdtcNk.png" 
+                    src="https://files.manuscdn.com/user_upload_by_module/session_file/310519663359530297/rRjKkZaalklwMiLC.png" 
                     alt="Checklist para Auditoria Trabalhista" 
                     className="w-full h-auto object-contain rounded-lg shadow-lg"
                   />
@@ -104,7 +104,7 @@ export default function Home() {
           <div className="hidden md:flex flex-col items-center justify-center">
             <div className="w-64 h-auto flex-shrink-0">
               <img 
-                src="https://files.manuscdn.com/user_upload_by_module/session_file/310519663359530297/JCWgkWztpRxdtcNk.png" 
+                src="https://files.manuscdn.com/user_upload_by_module/session_file/310519663359530297/rRjKkZaalklwMiLC.png" 
                 alt="Checklist para Auditoria Trabalhista" 
                 className="w-full h-auto object-contain rounded-lg shadow-lg"
               />
