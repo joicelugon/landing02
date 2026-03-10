@@ -25,7 +25,7 @@ export default function Home() {
             <a href="#areas" className="text-foreground hover:text-primary transition text-sm md:text-base">Áreas</a>
             <a href="#contact" className="text-foreground hover:text-primary transition text-sm md:text-base">Contato</a>
             <a href="https://wa.me/+5527995743351" target="_blank" rel="noopener noreferrer">
-              <Button className="hidden md:inline-flex font-semibold" style={{backgroundColor: '#9B4C57', color: '#ffffff'}} onMouseEnter={(e) => e.currentTarget.style.backgroundColor = '#8B3D47'} onMouseLeave={(e) => e.currentTarget.style.backgroundColor = '#9B4C57'}>
+              <Button className="hidden md:inline-flex font-semibold" style={{backgroundColor: '#B8305A', color: '#ffffff'}} onMouseEnter={(e) => e.currentTarget.style.backgroundColor = '#A01F4A'} onMouseLeave={(e) => e.currentTarget.style.backgroundColor = '#B8305A'}>
                 Fale com a Advogada
               </Button>
             </a>
@@ -85,7 +85,7 @@ export default function Home() {
             {/* CTA Buttons */}
             <div className="flex flex-col gap-4">
               <a href="https://wa.me/+5527995743351" target="_blank" rel="noopener noreferrer">
-                <Button size="lg" className="font-semibold" style={{backgroundColor: '#9B4C57', color: '#ffffff'}}>
+                <Button size="lg" className="font-semibold" style={{backgroundColor: '#B8305A', color: '#ffffff'}}>
                   Fale com a Advogada
                 </Button>
               </a>
