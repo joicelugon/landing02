@@ -49,7 +49,7 @@ export default function Home() {
           {/* Left Content */}
           <div className="space-y-8">
             {/* Logo and Title Section */}
-            <div className="flex flex-col items-start gap-6">
+            <div className="flex flex-col items-start gap-2">
               {/* Logo and Photo Container */}
               <div className="flex items-center gap-6 md:flex-col md:items-center">
                 {/* Logo */}
