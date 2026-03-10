@@ -47,9 +47,9 @@ export default function Home() {
         
         <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 grid grid-cols-1 md:grid-cols-2 gap-12 items-center w-full">
           {/* Left Content */}
-          <div className="space-y-8">
+          <div className="space-y-3 md:space-y-8">
             {/* Logo and Title Section */}
-            <div className="flex flex-col items-start gap-2">
+            <div className="flex flex-col items-start gap-1 md:gap-2">
               {/* Logo and Photo Container */}
               <div className="flex items-center gap-6 md:flex-col md:items-center">
                 {/* Logo */}
@@ -83,7 +83,7 @@ export default function Home() {
             </p>
 
             {/* CTA Buttons */}
-            <div className="flex flex-col gap-4">
+            <div className="flex flex-col gap-2 md:gap-4">
               <a href="https://wa.me/+5527995743351" target="_blank" rel="noopener noreferrer">
                 <Button size="lg" className="font-semibold" style={{backgroundColor: '#B8305A', color: '#ffffff'}}>
                   Fale com a Advogada
