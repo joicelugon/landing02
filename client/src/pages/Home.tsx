@@ -105,21 +105,15 @@ export default function Home() {
           </div>
 
 
-          {/* Right Content - Dra. Joice Photo */}
+          {/* Right Content - E-book Image */}
           <div className="hidden md:flex flex-col items-center justify-center">
-            <div className="relative w-80 h-96 flex items-center justify-center">
-              {/* Background glow effect */}
-              <div className="absolute inset-0 bg-gradient-to-br from-primary/30 to-primary/5 rounded-3xl blur-3xl"></div>
-              {/* Photo container */}
-              <div className="relative z-10 rounded-2xl overflow-hidden border-2 border-primary/30 shadow-2xl">
-                <img 
-                  src="https://files.manuscdn.com/user_upload_by_module/session_file/310519663359530297/SnJAJdjzDYCQdLEP.png" 
-                  alt="Dra. Joice Lugon" 
-                  className="w-full h-full object-cover"
-                />
-              </div>
+            <div className="w-64 h-auto flex-shrink-0">
+              <img 
+                src="https://files.manuscdn.com/user_upload_by_module/session_file/310519663359530297/ADnABaAWvokzdfMc.png" 
+                alt="Checklist para Auditoria Trabalhista" 
+                className="w-full h-auto object-contain rounded-lg shadow-lg"
+              />
             </div>
-            <p className="text-xs text-muted-foreground mt-3">OAB: 20.778/ES</p>
           </div>
         </div>
       </section>
