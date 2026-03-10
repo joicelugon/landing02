@@ -87,7 +87,7 @@ export default function Home() {
               </a>
               <a href="https://go.hotmart.com/Q104799668L" target="_blank" rel="noopener noreferrer">
                 <Button size="lg" className="bg-green-600 text-white hover:bg-green-700 font-semibold">
-                  Adquira o Checklist Trabalhista
+                  Adquira o CHECKLIST Trabalhista
                 </Button>
               </a>
             </div>
