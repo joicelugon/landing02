@@ -114,36 +114,39 @@ export default function Home() {
       </section>
 
       {/* Areas Section */}
-      <section id="areas" className="py-16" style={{backgroundColor: '#f8f8f8'}}>
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8" style={{backgroundColor: '#d5d5d5'}}>
+      <section id="areas" className="py-20 relative overflow-hidden" style={{background: 'linear-gradient(135deg, #1a0a1f 0%, #2d1b3d 100%)'}}>
+        <div className="absolute inset-0 opacity-10" style={{backgroundImage: 'url(https://d2xsxph8kpxj0f.cloudfront.net/310519663359530297/TfaWc8Lhn6YbnJ4da3LruK/ChatGPTImage21defev.de2026,19_20_01_500261da.png)', backgroundSize: 'cover'}}></div>
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
           {/* Section Header */}
-          <div className="text-center mb-12 pt-4">
-            <h2 className="text-4xl md:text-5xl font-bold mb-4" style={{color: '#3a3a3a', fontFamily: '"Droid Serif", serif'}}>Áreas de Atuação</h2>
-
+          <div className="text-center mb-16 pt-4">
+            <h2 className="text-4xl md:text-5xl font-bold mb-4 text-white" style={{fontFamily: '"Droid Serif", serif'}}>Áreas de Atuação</h2>
+            <p className="text-lg text-gray-300 max-w-2xl mx-auto">Expertise jurídica em diversas áreas para atender suas necessidades</p>
           </div>
 
           {/* Cards Grid */}
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             {/* Previdenciário */}
-            <div className="group relative p-6 bg-gray-200 border border-gray-400 rounded-lg hover:border-gray-600 hover:shadow-lg transition-all duration-300 cursor-pointer overflow-hidden"
+            <div className="group relative p-8 rounded-xl overflow-hidden transition-all duration-500 cursor-pointer"
               onMouseEnter={() => setActiveArea('previdenciario')}
               onMouseLeave={() => setActiveArea(null)}>
-              <div className="absolute inset-0 bg-gradient-to-br from-primary/5 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+              <div className="absolute inset-0 bg-gradient-to-br from-amber-600/20 to-amber-900/20 group-hover:from-amber-500/40 group-hover:to-amber-800/40 transition-all duration-500"></div>
+              <div className="absolute inset-0 border border-amber-500/30 group-hover:border-amber-400/60 rounded-xl transition-all duration-500"></div>
+              <div className="absolute inset-0 bg-gradient-to-br from-white/5 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
               <div className="relative z-10">
                 <div className="mb-6">
-                  <div className="w-14 h-14 bg-gradient-to-br from-gray-400/20 to-gray-400/10 rounded-xl flex items-center justify-center mb-4 group-hover:scale-110 transition-transform duration-300">
-                    <Briefcase className="w-7 h-7" style={{color: '#8B6914'}} />
+                  <div className="w-16 h-16 bg-gradient-to-br from-amber-500/30 to-amber-600/20 rounded-2xl flex items-center justify-center mb-4 group-hover:scale-110 group-hover:from-amber-400/50 group-hover:to-amber-500/30 transition-all duration-500">
+                    <Briefcase className="w-8 h-8 text-amber-400 group-hover:text-amber-300 transition-colors duration-500" />
                   </div>
-                  <h3 className="text-xl font-bold group-hover:text-yellow-700 transition-colors duration-300" style={{color: '#8B6914'}}>Previdenciário</h3>
+                  <h3 className="text-2xl font-bold text-white group-hover:text-amber-300 transition-colors duration-500">Previdenciário</h3>
                 </div>
 
                 <ul className="space-y-3">
-                  <li className="flex items-center gap-3 text-gray-700 group-hover:text-gray-900 transition-colors duration-300">
-                    <span className="w-2.5 h-2.5 rounded-full group-hover:scale-125 transition-transform duration-300" style={{backgroundColor: '#555555'}}></span>
+                  <li className="flex items-center gap-3 text-gray-300 group-hover:text-gray-100 transition-colors duration-500">
+                    <span className="w-2 h-2 rounded-full bg-amber-400 group-hover:scale-150 transition-transform duration-500"></span>
                     <span className="font-medium">Aposentadorias</span>
                   </li>
-                  <li className="flex items-center gap-3 text-gray-700 group-hover:text-gray-900 transition-colors duration-300">
-                    <span className="w-2.5 h-2.5 rounded-full group-hover:scale-125 transition-transform duration-300" style={{backgroundColor: '#555555'}}></span>
+                  <li className="flex items-center gap-3 text-gray-300 group-hover:text-gray-100 transition-colors duration-500">
+                    <span className="w-2 h-2 rounded-full bg-amber-400 group-hover:scale-150 transition-transform duration-500"></span>
                     <span className="font-medium">Benefícios INSS</span>
                   </li>
                 </ul>
@@ -151,25 +154,27 @@ export default function Home() {
             </div>
 
             {/* Trabalhista */}
-            <div className="group relative p-6 bg-gray-200 border border-gray-400 rounded-lg hover:border-gray-600 hover:shadow-lg transition-all duration-300 cursor-pointer overflow-hidden"
+            <div className="group relative p-8 rounded-xl overflow-hidden transition-all duration-500 cursor-pointer"
               onMouseEnter={() => setActiveArea('trabalhista')}
               onMouseLeave={() => setActiveArea(null)}>
-              <div className="absolute inset-0 bg-gradient-to-br from-primary/5 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+              <div className="absolute inset-0 bg-gradient-to-br from-purple-600/20 to-purple-900/20 group-hover:from-purple-500/40 group-hover:to-purple-800/40 transition-all duration-500"></div>
+              <div className="absolute inset-0 border border-purple-500/30 group-hover:border-purple-400/60 rounded-xl transition-all duration-500"></div>
+              <div className="absolute inset-0 bg-gradient-to-br from-white/5 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
               <div className="relative z-10">
                 <div className="mb-6">
-                  <div className="w-14 h-14 bg-gradient-to-br from-gray-400/20 to-gray-400/10 rounded-xl flex items-center justify-center mb-4 group-hover:scale-110 transition-transform duration-300">
-                    <Shield className="w-7 h-7" style={{color: '#8B6914'}} />
+                  <div className="w-16 h-16 bg-gradient-to-br from-purple-500/30 to-purple-600/20 rounded-2xl flex items-center justify-center mb-4 group-hover:scale-110 group-hover:from-purple-400/50 group-hover:to-purple-500/30 transition-all duration-500">
+                    <Shield className="w-8 h-8 text-purple-400 group-hover:text-purple-300 transition-colors duration-500" />
                   </div>
-                  <h3 className="text-xl font-bold group-hover:text-yellow-700 transition-colors duration-300" style={{color: '#8B6914'}}>Trabalhista</h3>
+                  <h3 className="text-2xl font-bold text-white group-hover:text-purple-300 transition-colors duration-500">Trabalhista</h3>
                 </div>
 
                 <ul className="space-y-3">
-                  <li className="flex items-center gap-3 text-gray-700 group-hover:text-gray-900 transition-colors duration-300">
-                    <span className="w-2.5 h-2.5 rounded-full group-hover:scale-125 transition-transform duration-300" style={{backgroundColor: '#555555'}}></span>
+                  <li className="flex items-center gap-3 text-gray-300 group-hover:text-gray-100 transition-colors duration-500">
+                    <span className="w-2 h-2 rounded-full bg-purple-400 group-hover:scale-150 transition-transform duration-500"></span>
                     <span className="font-medium">Direitos Trabalhistas</span>
                   </li>
-                  <li className="flex items-center gap-3 text-gray-700 group-hover:text-gray-900 transition-colors duration-300">
-                    <span className="w-2.5 h-2.5 rounded-full group-hover:scale-125 transition-transform duration-300" style={{backgroundColor: '#555555'}}></span>
+                  <li className="flex items-center gap-3 text-gray-300 group-hover:text-gray-100 transition-colors duration-500">
+                    <span className="w-2 h-2 rounded-full bg-purple-400 group-hover:scale-150 transition-transform duration-500"></span>
                     <span className="font-medium">Auditoria e Consultoria Empresarial</span>
                   </li>
                 </ul>
@@ -177,25 +182,27 @@ export default function Home() {
             </div>
 
             {/* Consumidor */}
-            <div className="group relative p-6 bg-gray-200 border border-gray-400 rounded-lg hover:border-gray-600 hover:shadow-lg transition-all duration-300 cursor-pointer overflow-hidden"
+            <div className="group relative p-8 rounded-xl overflow-hidden transition-all duration-500 cursor-pointer"
               onMouseEnter={() => setActiveArea('consumidor')}
               onMouseLeave={() => setActiveArea(null)}>
-              <div className="absolute inset-0 bg-gradient-to-br from-primary/5 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+              <div className="absolute inset-0 bg-gradient-to-br from-rose-600/20 to-rose-900/20 group-hover:from-rose-500/40 group-hover:to-rose-800/40 transition-all duration-500"></div>
+              <div className="absolute inset-0 border border-rose-500/30 group-hover:border-rose-400/60 rounded-xl transition-all duration-500"></div>
+              <div className="absolute inset-0 bg-gradient-to-br from-white/5 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
               <div className="relative z-10">
                 <div className="mb-6">
-                  <div className="w-14 h-14 bg-gradient-to-br from-gray-400/20 to-gray-400/10 rounded-xl flex items-center justify-center mb-4 group-hover:scale-110 transition-transform duration-300">
-                    <Users className="w-7 h-7" style={{color: '#8B6914'}} />
+                  <div className="w-16 h-16 bg-gradient-to-br from-rose-500/30 to-rose-600/20 rounded-2xl flex items-center justify-center mb-4 group-hover:scale-110 group-hover:from-rose-400/50 group-hover:to-rose-500/30 transition-all duration-500">
+                    <Users className="w-8 h-8 text-rose-400 group-hover:text-rose-300 transition-colors duration-500" />
                   </div>
-                  <h3 className="text-xl font-bold group-hover:text-yellow-700 transition-colors duration-300" style={{color: '#8B6914'}}>Consumidor</h3>
+                  <h3 className="text-2xl font-bold text-white group-hover:text-rose-300 transition-colors duration-500">Consumidor</h3>
                 </div>
 
                 <ul className="space-y-3">
-                  <li className="flex items-center gap-3 text-gray-700 group-hover:text-gray-900 transition-colors duration-300">
-                    <span className="w-2.5 h-2.5 rounded-full group-hover:scale-125 transition-transform duration-300" style={{backgroundColor: '#555555'}}></span>
+                  <li className="flex items-center gap-3 text-gray-300 group-hover:text-gray-100 transition-colors duration-500">
+                    <span className="w-2 h-2 rounded-full bg-rose-400 group-hover:scale-150 transition-transform duration-500"></span>
                     <span className="font-medium">Defesa do Consumidor</span>
                   </li>
-                  <li className="flex items-center gap-3 text-gray-700 group-hover:text-gray-900 transition-colors duration-300">
-                    <span className="w-2.5 h-2.5 rounded-full group-hover:scale-125 transition-transform duration-300" style={{backgroundColor: '#555555'}}></span>
+                  <li className="flex items-center gap-3 text-gray-300 group-hover:text-gray-100 transition-colors duration-500">
+                    <span className="w-2 h-2 rounded-full bg-rose-400 group-hover:scale-150 transition-transform duration-500"></span>
                     <span className="font-medium">Reparação de Danos</span>
                   </li>
                 </ul>
