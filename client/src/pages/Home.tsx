@@ -30,7 +30,7 @@ export default function Home() {
       </header>
 
       {/* Hero Section */}
-      <section className="relative min-h-screen flex items-center pt-16 overflow-hidden">
+      <section className="relative flex items-center pt-16 overflow-hidden" style={{minHeight: '120vh'}}>
         {/* Background image */}
         <div className="absolute inset-0 z-0" style={{
           backgroundImage: 'url(https://d2xsxph8kpxj0f.cloudfront.net/310519663359530297/TfaWc8Lhn6YbnJ4da3LruK/ChatGPTImage21defev.de2026,19_20_01_500261da.png)',
@@ -68,13 +68,13 @@ export default function Home() {
               </div>
               
               {/* Main Title */}
-              <h1 className="text-lg md:text-xl font-semibold leading-relaxed" style={{fontFamily: '"Lato", sans-serif', textAlign: 'left'}}>
+              <h1 className="text-lg md:text-xl font-semibold leading-relaxed" style={{fontFamily: '"Lato", sans-serif', textAlign: 'justify', fontSize: '14px'}}>
                 Advogada dedicada à defesa dos direitos, com atuação focada na orientação estratégica e <span className="text-primary">humanizada</span> de clientes e empresas.
               </h1>
             </div>
 
             {/* Description */}
-            <p className="text-lg text-muted-foreground max-w-2xl" style={{fontSize: '15px', textAlign: 'justify'}}>
+            <p className="text-lg text-muted-foreground max-w-2xl" style={{fontSize: '12px', textAlign: 'justify'}}>
               Pós-graduada em Direito e Processo do Trabalho, minha atuação é guiada, há 14 anos, pela técnica jurídica aliada à escuta atenta, buscando soluções eficientes e personalizadas para cada situação.
             </p>
 
