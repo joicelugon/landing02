@@ -82,23 +82,18 @@ export default function Home() {
               Pós-graduada em Direito e Processo do Trabalho, minha atuação é guiada, há 14 anos, pela técnica jurídica aliada à escuta atenta, buscando soluções eficientes e personalizadas para cada situação.
             </p>
 
-            {/* CTA Buttons and E-book */}
-            <div className="flex flex-col sm:flex-row gap-8 items-start sm:items-center">
-              <div className="flex flex-col gap-4">
-                <a href="https://wa.me/+5527995743351" target="_blank" rel="noopener noreferrer">
-                  <Button size="lg" className="font-semibold" style={{backgroundColor: '#9B4C57', color: '#ffffff'}}>
-                    Fale com a Advogada
-                  </Button>
-                </a>
-                <a href="https://go.hotmart.com/Q104799668L" target="_blank" rel="noopener noreferrer">
-                  <Button size="lg" className="bg-green-600 text-white hover:bg-green-700 font-semibold">
-                    Adquira o CHECKLIST Trabalhista
-                  </Button>
-                </a>
-              </div>
-              <div className="hidden sm:block w-48 flex-shrink-0">
-                <img src="https://files.manuscdn.com/user_upload_by_module/session_file/310519663359530297/ADnABaAWvokzdfMc.png" alt="Checklist para Auditoria Trabalhista" className="w-full h-auto object-contain rounded-lg shadow-lg" />
-              </div>
+            {/* CTA Buttons */}
+            <div className="flex flex-col gap-4">
+              <a href="https://wa.me/+5527995743351" target="_blank" rel="noopener noreferrer">
+                <Button size="lg" className="font-semibold" style={{backgroundColor: '#9B4C57', color: '#ffffff'}}>
+                  Fale com a Advogada
+                </Button>
+              </a>
+              <a href="https://go.hotmart.com/Q104799668L" target="_blank" rel="noopener noreferrer">
+                <Button size="lg" className="bg-green-600 text-white hover:bg-green-700 font-semibold">
+                  Adquira o CHECKLIST Trabalhista
+                </Button>
+              </a>
             </div>
 
 
