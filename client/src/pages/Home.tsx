@@ -72,7 +72,7 @@ export default function Home() {
               </div>
               
               {/* Main Title */}
-              <h1 className="text-lg md:text-xl font-semibold leading-relaxed" style={{fontFamily: '"Playfair Display", serif', textAlign: 'justify', fontSize: '14px'}}>
+              <h1 className="text-lg md:text-xl font-semibold leading-relaxed" style={{fontFamily: '"Droid Serif", serif', textAlign: 'justify', fontSize: '14px'}}>
                 Advogada dedicada à defesa dos direitos, com atuação focada na orientação estratégica e <span className="text-primary">humanizada</span> de clientes e empresas.
               </h1>
             </div>
